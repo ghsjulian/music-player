@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./fonts/css/all.min.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <title>Music Player App - Created By Ghs Julian</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h3>Music Player</h3>
+                <div class="menu">
+                    <button><i class="fas fa-music"></i></button>
+                </div>
+            </div>
+            <div id="sidebar" class="close-sidebar">
+                <h3>Your Music Playlist</h3>
+                <div class="song-list"></div>
+            </div>
+            <div id="overly"></div>
+
+            <div class="screen">
+                <img src="./img/117.png" alt="Album Song" />
+            </div>
+            <div class="title">
+                <p>Dil ka ristha bara hi piyara hai.mp3</p>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress">
+                        <span class="ball"></span>
+                    </div>
+                </div>
+                <div class="time">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="control-btn" id="prev-btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button class="control-btn play-pause" id="play-pause-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button class="control-btn" id="next-btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+            <h3 class="dev">
+                Developed By -
+                <a href="https://ghsresume.netlify.app" target="_blank">
+                    Ghs Julian</a
+                >
+            </h3>
+        </div>
+        <script type="module" src="js/index.js"></script>
+        
+    </body>
+</html>
